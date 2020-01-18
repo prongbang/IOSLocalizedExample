@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		942ADCF3621CBE0D2D140DF9 /* Pods_LocalizedExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7012E97838B11A7A2E84AB64 /* Pods_LocalizedExample.framework */; };
+		FB8D06D523D3581400451006 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D06D423D3581400451006 /* 9.png */; };
+		FB8D06D723D3585500451006 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D06D623D3585500451006 /* 8.png */; };
+		FB8D06D923D3588900451006 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D06D823D3588900451006 /* 7.png */; };
+		FB8D06DB23D3598F00451006 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D06DA23D3598F00451006 /* R.generated.swift */; };
+		FB8D06DD23D359B600451006 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D06DC23D359B500451006 /* 11.png */; };
 		FBAE7B3423D2FA2700943348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAE7B3323D2FA2700943348 /* AppDelegate.swift */; };
 		FBAE7B3623D2FA2700943348 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAE7B3523D2FA2700943348 /* SceneDelegate.swift */; };
 		FBAE7B3823D2FA2700943348 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAE7B3723D2FA2700943348 /* ContentView.swift */; };
@@ -21,16 +26,18 @@
 		FBAE7B5F23D30BDC00943348 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAE7B5B23D30BDC00943348 /* 1.png */; };
 		FBAE7B6223D311CC00943348 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAE7B6123D311CC00943348 /* 5.png */; };
 		FBAE7B6423D3126600943348 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAE7B6323D3126600943348 /* 6.png */; };
-		FBAE7B6623D312E900943348 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAE7B6523D312E900943348 /* 7.png */; };
-		FBAE7B6823D3135700943348 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAE7B6723D3135700943348 /* 8.png */; };
 		FBAE7B6C23D3149100943348 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAE7B6B23D3149000943348 /* 10.png */; };
-		FBAE7B6E23D316D400943348 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAE7B6D23D316D400943348 /* 9.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7012E97838B11A7A2E84AB64 /* Pods_LocalizedExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalizedExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89159DAAE490D6D273AF1671 /* Pods-LocalizedExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizedExample.release.xcconfig"; path = "Target Support Files/Pods-LocalizedExample/Pods-LocalizedExample.release.xcconfig"; sourceTree = "<group>"; };
 		D583E43BBD546326639AAD6F /* Pods-LocalizedExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizedExample.debug.xcconfig"; path = "Target Support Files/Pods-LocalizedExample/Pods-LocalizedExample.debug.xcconfig"; sourceTree = "<group>"; };
+		FB8D06D423D3581400451006 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		FB8D06D623D3585500451006 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		FB8D06D823D3588900451006 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		FB8D06DA23D3598F00451006 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		FB8D06DC23D359B500451006 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
 		FBAE7B3023D2FA2700943348 /* LocalizedExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizedExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAE7B3323D2FA2700943348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBAE7B3523D2FA2700943348 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,10 +54,7 @@
 		FBAE7B5B23D30BDC00943348 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		FBAE7B6123D311CC00943348 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		FBAE7B6323D3126600943348 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
-		FBAE7B6523D312E900943348 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
-		FBAE7B6723D3135700943348 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 		FBAE7B6B23D3149000943348 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
-		FBAE7B6D23D316D400943348 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				FBAE7B3323D2FA2700943348 /* AppDelegate.swift */,
 				FBAE7B3523D2FA2700943348 /* SceneDelegate.swift */,
 				FBAE7B3723D2FA2700943348 /* ContentView.swift */,
+				FB8D06DA23D3598F00451006 /* R.generated.swift */,
 				FBAE7B3923D2FA2800943348 /* Assets.xcassets */,
 				FBAE7B4123D2FA2800943348 /* Info.plist */,
 				FBAE7B3B23D2FA2800943348 /* Preview Content */,
@@ -142,10 +147,11 @@
 				FBAE7B5923D30BDC00943348 /* 4.png */,
 				FBAE7B6123D311CC00943348 /* 5.png */,
 				FBAE7B6323D3126600943348 /* 6.png */,
-				FBAE7B6523D312E900943348 /* 7.png */,
-				FBAE7B6723D3135700943348 /* 8.png */,
-				FBAE7B6D23D316D400943348 /* 9.png */,
+				FB8D06D823D3588900451006 /* 7.png */,
+				FB8D06D623D3585500451006 /* 8.png */,
+				FB8D06D423D3581400451006 /* 9.png */,
 				FBAE7B6B23D3149000943348 /* 10.png */,
+				FB8D06DC23D359B500451006 /* 11.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -214,14 +220,15 @@
 				FBAE7B5C23D30BDC00943348 /* 3.png in Resources */,
 				FBAE7B6223D311CC00943348 /* 5.png in Resources */,
 				FBAE7B5D23D30BDC00943348 /* 4.png in Resources */,
-				FBAE7B6623D312E900943348 /* 7.png in Resources */,
 				FBAE7B6C23D3149100943348 /* 10.png in Resources */,
 				FBAE7B5223D308EC00943348 /* Localizable.strings in Resources */,
-				FBAE7B6E23D316D400943348 /* 9.png in Resources */,
+				FB8D06D723D3585500451006 /* 8.png in Resources */,
+				FB8D06D523D3581400451006 /* 9.png in Resources */,
 				FBAE7B5E23D30BDC00943348 /* 2.png in Resources */,
 				FBAE7B4D23D308C800943348 /* Localizable.strings in Resources */,
 				FBAE7B6423D3126600943348 /* 6.png in Resources */,
-				FBAE7B6823D3135700943348 /* 8.png in Resources */,
+				FB8D06D923D3588900451006 /* 7.png in Resources */,
+				FB8D06DD23D359B600451006 /* 11.png in Resources */,
 				FBAE7B3D23D2FA2800943348 /* Preview Assets.xcassets in Resources */,
 				FBAE7B5F23D30BDC00943348 /* 1.png in Resources */,
 				FBAE7B3A23D2FA2800943348 /* Assets.xcassets in Resources */,
@@ -288,7 +295,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/LocalizedExample/R.generated.swift\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -300,6 +307,7 @@
 				FBAE7B3423D2FA2700943348 /* AppDelegate.swift in Sources */,
 				FBAE7B3623D2FA2700943348 /* SceneDelegate.swift in Sources */,
 				FBAE7B3823D2FA2700943348 /* ContentView.swift in Sources */,
+				FB8D06DB23D3598F00451006 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

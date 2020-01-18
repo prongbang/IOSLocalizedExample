@@ -36,17 +36,20 @@ pod 'R.swift'
 * Expand Run Script and paste the following script:
 
 ```
-"$PODS_ROOT/R.swift/rswift" generate "$SRCROOT/R.generated.swift"
+"$PODS_ROOT/R.swift/rswift" generate "$SRCROOT/[YOUR_PATH]/R.generated.swift"
 ```
 
 ![Screenshot](Screenshots/7.png)
-
 
 * Add `$TEMP_DIR/rswift-lastrun` to the `Input Files`
 
 ![Screenshot](Screenshots/8.png)
 
-* Add `$SRCROOT/R.generated.swift` to the `Output Files`
+* Add `Script` to the `Output Files`
+
+```
+$SRCROOT/[YOUR_PATH]/R.generated.swift
+```
 
 ![Screenshot](Screenshots/9.png)
 
@@ -54,8 +57,6 @@ pod 'R.swift'
 
 ![Screenshot](Screenshots/10.png)
 
-* Result
+* Add file to "LocalizedExample"
 
-
-
-
+![Screenshot](Screenshots/11.png)

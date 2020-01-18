@@ -7,10 +7,19 @@
 //
 
 import SwiftUI
+import Rswift
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Text(R.string.localizable.hello_world())
+            Button(action: {
+                UserDefaults.standard.set("en", forKey: "AppleLanguages")
+                UserDefaults.standard.synchronize()
+            }) {
+                Text("Change Language")
+            }
+        }
     }
 }
 
