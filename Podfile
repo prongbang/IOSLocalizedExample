@@ -6,5 +6,6 @@ target 'LocalizedExample' do
   use_frameworks!
 
   # Pods for LocalizedExample
+  pod 'R.swift'
 
 end
