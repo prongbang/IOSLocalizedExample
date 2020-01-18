@@ -1,6 +1,6 @@
 #  IOSLocalizedExample
 
-## Setup localized
+## Setup R.swift
 
 * Add `Localizations`
 
